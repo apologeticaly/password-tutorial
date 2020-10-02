@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+
+body {
+  margin: 5rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+  justify-content: center;
+}
+
+.col {
+  margin: 0 0.5rem;
+}
+
+input[type="checkbox"] {
+  margin-left: 2rem;
+}
+
+#length {
+  max-width: 2rem;
+}
+
+th, td {
+  text-align: left;
+  padding: 0.25rem 1rem 0.25rem 1rem;
+  border: 2px solid;
+}
+
+table {
+  margin: 0 auto;
+}
+
+.strength {
+  margin: 0;
+}
